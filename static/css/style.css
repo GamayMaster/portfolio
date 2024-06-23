@@ -1,0 +1,154 @@
+
+body {
+    background-color: rgb(27, 76, 80);
+}
+
+nav {
+    background-color: rgb(27, 76, 80);   
+}
+
+.logo {
+    margin-left: 30px;
+    color: #0ef;
+    font-size: 30px;
+}
+
+.logo:hover, .logo:focus {
+    color: #0ef;
+    font-size: 35px;
+}
+
+.div-ul {
+    justify-content: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav-link, .active {
+    color: #fff;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: rgb(27, 76, 80);
+}
+
+.content {
+    /* width: auto; */
+    height: 100vh;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.content .part {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    color: #0ef;
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.content .part .links a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #0ef;
+    padding: 3px;
+}
+
+.content .part .links a {
+    margin-right: 5px;
+}
+
+.content .image {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-image: url('../image/ahmed.png');
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #0ef;
+    float: right;
+}
+
+.content h1 {
+    color: #0ef;
+}
+
+.content .skl .row .col {
+    height: 50px;
+    color: #0ef;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content .skl .row .col:hover {
+    background-color: #0ef;
+    color: rgb(27, 76, 80);   
+}
+
+.content .proj .row .col {
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.content .proj .row .col h3 {
+    color: #0ef;
+}
+
+.content .proj .row .col p {
+    color: #fff;
+}
+
+.content .proj .row .col a {
+    text-decoration: none;
+}
+
+@media ((max-width: 750px) and (min-width: 400px)) {
+    .content {
+        height: 100vh;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .content .image {
+        width: 300px;
+        height: 300px;
+        background-image: url('../image/ahmed.png');
+        background-size: cover;
+        border-radius: 50%;
+        border: 2px solid #0ef;
+        margin-top: 50px;
+
+    }
+
+    .content .part {
+        width: 300px;
+        height: 300px;
+        margin-top: 200px;
+        justify-items: center;
+        justify-content: center;
+        color: #0ef;
+        padding-left: calc(300px - 300px);
+    }
+    
+    .content .part .links a img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #0ef;
+        padding: 3px;
+    }
+
+    .content .part .links a {
+        margin-right: 5px;
+    }
+
+}
